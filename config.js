@@ -2,9 +2,9 @@ module.exports = {
   showStats: true, // Booleen | true / e
 	website: {
 		protocol: 'https://', // https:// or http://
-		domain: 'web.felysia.xyz', // website link without protocol ex. bot-website.tejas1794.repl.co
+		domain: 'www.felysia.xyz', // website link without protocol ex. bot-website.tejas1794.repl.co
 		port: 3000,
-    cookieSecret: 'web.felysia.xyz' // Cookie secret | charaters used store client data
+    cookieSecret: 'www.felysia.xyz' // Cookie secret | charaters used store client data
 	},
   bot: {
     name: 'Felysia', // Bot Name
