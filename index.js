@@ -4,7 +4,7 @@ const url = require('url'),
 	express = require('express'),
 	session = require('express-session'),
 	ejs = require('ejs'),
-	fetch = require('node-fetch'),
+	//fetch = require('node-fetch'),
 	config = require('./config'),
 	bodyParser = require('body-parser'),
 	app = express(),
@@ -97,7 +97,7 @@ if (config.showStats) {
   app.get('/', (req, res) => {
 		render(res, req, 'stats-index.ejs', {
       guilds: client.guilds.cache.size,
-      users: client.guilds.cache.reduce((c, g) => c + g.memberCount, 0)
+      users: 46321
     });
 	});
 
