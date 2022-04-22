@@ -8,7 +8,7 @@ module.exports = {
 	},
   bot: {
     name: 'Felysia', // Bot Name
-    token: 'OTQ5Nzk0MDc2NTg3MzYwMjg3.YiPiqg.B2ZFROUwNwhCBX4kNJxBdKG-xp0', // Bot token if showing Stats
+    token: 'token', // Bot token if showing Stats
     logo: 'https://media.discordapp.net/attachments/949798479235006524/966578584695218187/FB_IMG_1635077819712.jpg', //Bot Logo used in embeds and favicon
     description: 'Felysia is tools to help Digital Artists and Illustrator improve', //description of your bot used in embed and website
     support: 'https://discord.gg/uZTCtPcT5f', // support server url of your bot
