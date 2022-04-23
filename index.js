@@ -97,7 +97,7 @@ if (config.showStats) {
   app.get('/', (req, res) => {
 		render(res, req, 'stats-index.ejs', {
       guilds: client.guilds.cache.size,
-      users: 46321
+      users: client.user.cache.size
     });
 	});
 
